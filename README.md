@@ -15,5 +15,28 @@ pip install -r requirements.txt
 # write urls to urls.txt
 vim urls.txt
 # run scanner
-python3 -W ignore scanner.py
+python3 -W ignore exploit.py
 ```
+
+## Beta Version Usage
+
+If you want it to scan faster, you can try the beta version exploit.
+
+```bash
+# install dependencies
+pip install -r requirements_beta.txt
+# write urls to urls.txt
+vim urls.txt
+# run scanner
+python3 exploit_beta.py
+```
+
+If you get an error about the file being opened too many times, you can change the limit to 4096:
+
+```bash
+# show the limit
+ulimit -n
+# change the limit to 4096
+ulimit -n 4096
+```
+
