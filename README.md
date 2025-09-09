@@ -15,7 +15,7 @@ pip install -r requirements.txt
 # write urls to urls.txt
 vim urls.txt
 # run scanner
-python3 -W ignore scanner.py
+python3 -W ignore exploit.py
 ```
 
 ## Beta Version Usage
